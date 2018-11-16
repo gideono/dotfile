@@ -1,3 +1,4 @@
+
 #!/bin/bash
 brew install git
 brew install maven
@@ -7,3 +8,7 @@ brew install mariadb
 brew install openssl
 brew install python3
 brew install openconnect
+brew install node
+brew install openssl
+brew install node@8
+
