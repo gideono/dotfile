@@ -1,12 +1,8 @@
 #!/bin/bash
 
-brew install zsh
-
-echo "************* oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-echo "************* switching to zsh"
-chsh -s /usr/local/bin/zsh
-
-echo "************* creating symbolic link"
+echo "- creating symbolic link"
 rm ~/.zshrc && ln -s $(pwd)/.zshrc ~/.zshrc
+
+#custom zsh theme
+#https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083
+#https://coderwall.com/p/g801fg/customize-terminal-with-oh-my-zsh
