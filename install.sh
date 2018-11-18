@@ -9,5 +9,5 @@ git clone https://github.com/gideono/dotfile.git
 source ~/Documents/project/Shell/dotfile/brew/brew-resources.sh
 source ~/Documents/project/Shell/dotfile/brew/brew-cask-resources.sh
 
-#TODO
-#Link .zshrc file and terminal theme, also update env resource
+source ~/Documents/project/Shell/dotfile/zsh
+
