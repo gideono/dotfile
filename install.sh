@@ -6,8 +6,7 @@ mkdir -p ~/Documents/project/Shell
 cd ~/Documents/project/Shell
 
 git clone https://github.com/gideono/dotfile.git
-source ~/Documents/project/Shell/dotfile/brew/brew-resources.sh
 source ~/Documents/project/Shell/dotfile/brew/brew-cask-resources.sh
+source ~/Documents/project/Shell/dotfile/brew/brew-resources.sh
 
 source ~/Documents/project/Shell/dotfile/zsh
-
