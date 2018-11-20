@@ -12,3 +12,4 @@ brew cask install intellij-idea
 brew cask install spotify
 brew cask install aerial
 brew cask install docker
+brew cask install slack
