@@ -69,6 +69,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source $(pwd)/zsh/env.sh
 
 # User configuration
 

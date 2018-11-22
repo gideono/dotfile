@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "- creating symbolic link"
-#rm ~/.zshrc && ln -s $(pwd)/.zshrc ~/.zshrc
+rm ~/.zshrc && ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/titan.zsh-theme ~/.oh-my-zsh/themes/
 
 #custom zsh theme
