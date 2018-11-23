@@ -65,11 +65,14 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git,
   mvn,
-  node
+  node,
+  docker
 )
 
 source $ZSH/oh-my-zsh.sh
-source $(pwd)/.alias/custom.sh
+source ~/Documents/project/Shell/dotfile/zsh/alias/environment.sh
+source ~/Documents/project/Shell/dotfile/zsh/alias/function.sh
+source ~/Documents/project/Shell/dotfile/zsh/alias/path.sh
 
 # User configuration
 
