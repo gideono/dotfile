@@ -69,7 +69,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source $(dirname $(readlink $(pwd)/.zshrc))/env.sh
+source $(pwd)/.alias/custom.sh
 
 # User configuration
 
