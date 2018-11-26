@@ -1,8 +1,9 @@
 #!/bin/bash
 
-echo "- creating symbolic link"
-ln -s $(pwd)/titan.zsh-theme ~/.oh-my-zsh/themes/
-rm ~/.zshrc && ln -s $(pwd)/.zshrc ~/.zshrc
+echo "- installing zsh and resources"
+cp $(pwd)/titan.zsh-theme ~/.oh-my-zsh/themes/titan.zsh-theme
+mv ~/.zshrc ~/.zshrc_defualt && cp $(pwd)/.zshrc ~/.zshrc
+cp -r ./.alias ~/.alias
 
 #custom zsh theme
 #https://code.tutsplus.com/tutorials/how-to-customize-your-command-prompt--net-24083

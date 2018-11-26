@@ -70,9 +70,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-source ~/Documents/project/Shell/dotfile/zsh/alias/environment.sh
-source ~/Documents/project/Shell/dotfile/zsh/alias/function.sh
-source ~/Documents/project/Shell/dotfile/zsh/alias/path.sh
+source ~/.alias/environment.sh
+source ~/.alias/function.sh
+source ~/.alias/path.sh
 
 # User configuration
 
