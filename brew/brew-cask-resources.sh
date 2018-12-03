@@ -9,6 +9,7 @@ brew cask install vlc
 brew cask install dropbox
 brew cask install atom
 brew cask install intellij-idea
+brew cask install android-studio
 brew cask install spotify
 brew cask install aerial
 brew cask install docker
