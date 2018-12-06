@@ -74,6 +74,9 @@ source ~/.alias/environment.sh
 source ~/.alias/function.sh
 source ~/.alias/path.sh
 
+#Com Hem k8s script
+source ~/.ssh/comhem/comhem-k8s-bundle/env.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
